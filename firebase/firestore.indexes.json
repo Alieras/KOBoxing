@@ -1,0 +1,74 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "entrenamientos",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "fechaString",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "fecha",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "entrenamientos",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "fechaString",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "fecha",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "boxeadores",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "activo",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "fechaRegistro",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "progreso",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "boxeador",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "fecha",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "peleas",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "boxeador",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "fecha",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "865480309396",
+    "project_id": "ko-boxing-431ea",
+    "storage_bucket": "ko-boxing-431ea.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865480309396:android:bf05ce218fa8c37dbdd281",
+        "android_client_info": {
+          "package_name": "com.AJER.koboxing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "865480309396-b37rvrmp3hug6peait0rtdqj4rogavl4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.AJER.koboxing",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "865480309396-5a9r1ulkb1cgm77tsmgc93ououk7f490.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrPg0luBvJ75htT42IRkSuar9hzwmluGg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "865480309396-5a9r1ulkb1cgm77tsmgc93ououk7f490.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "865480309396-jmao880cgla4oe592lb1eflj9st9peui.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.AJER.koboxing"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
